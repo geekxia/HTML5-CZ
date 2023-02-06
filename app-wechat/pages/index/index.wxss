@@ -1,0 +1,9 @@
+.box {
+  text-align: center;
+  line-height: 200rpx;
+}
+.ipt {
+  border: 1rpx solid red;
+  height: 60rpx;
+  line-height: 60rpx;
+}

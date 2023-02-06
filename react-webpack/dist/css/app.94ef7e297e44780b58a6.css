@@ -1,0 +1,4 @@
+.box{color:blue;font-size:60px;background:#000}.c0{color:#000}.c1{color:red}.c2{color:green}.c3{color:blue}.long{font-size:24px}
+html,body{padding:0;margin:0}header{height:60px;background:#000;width:100%;color:#fff}header>div{width:1000px;margin:0 auto}header>div .nav{display:inline-block;padding:0 20px;line-height:60px;cursor:pointer}header>div .nav:hover{color:#ccc}header a{color:#fff;text-decoration:none}main{min-height:1000px;width:1000px;margin:0 auto;padding:20px 0}footer{background-color:#eee;padding:20px;box-sizing:border-box}
+
+/*# sourceMappingURL=app.94ef7e297e44780b58a6.css.map*/

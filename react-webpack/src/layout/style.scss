@@ -1,0 +1,40 @@
+html, body {
+  padding: 0; margin: 0;
+}
+
+header {
+  height: 60px;
+  background: #000000;
+  width: 100%;
+  color: white;
+  &>div {
+    width: 1000px;
+    margin: 0 auto;
+    .nav {
+      display: inline-block;
+      padding: 0 20px;
+      line-height: 60px;
+      cursor: pointer;
+    }
+    .nav:hover {
+      color: #cccccc;
+    }
+  }
+  a {
+    color: white;
+    text-decoration: none;
+  }
+}
+
+main {
+  min-height: 1000px;
+  width: 1000px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+footer {
+  background-color: #eee;
+  padding: 20px;
+  box-sizing: border-box;
+}

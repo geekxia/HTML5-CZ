@@ -1,0 +1,66 @@
+.layer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  .modal {
+    width: 520px;
+    position: absolute;
+    top: 100px;
+    left: 50%;
+    margin-left: -260px;
+    background-color: white;
+    box-sizing: border-box;
+    border-radius: 2px;
+    font-size: 14px;
+    .head {
+      line-height: 50px;
+      border-bottom: 1px solid #eee;
+      box-sizing: border-box;
+      padding: 0 25px;
+      overflow: hidden;
+      .tip {
+        float: left;
+      }
+      .close {
+        float: right;
+        cursor: pointer;
+      }
+    }
+    .body {
+      box-sizing: border-box;
+      padding: 25px;
+      line-height: 28px;
+    }
+    .foot {
+      height: 50px;
+      box-sizing: border-box;
+      overflow: hidden;
+      padding: 0 25px;
+      border-top: 1px solid #eee;
+      &>span {
+        float: right;
+        cursor: pointer;
+        box-sizing: border-box;
+        line-height: 28px;
+        padding: 0 15px;
+        border: 1px solid #ccc;
+        border-radius: 2px;
+        margin-left: 15px;
+        margin-top: 10px;
+      }
+      &>span.confirm {
+        background-color: blue;
+        color: white;
+        border-color: blue;
+      }
+      &>span.danger {
+        background-color: red;
+        color: white;
+        border-color: red;
+      }
+    }
+  }
+}

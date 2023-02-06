@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='box'>Hello CZ</view>
+
+  <input class="ipt" type="text" value='{{task}}' bindinput='getTask' bindconfirm='addTask' />
+
+  <view wx:for='{{list}}' wx:key='*this'>
+    <view>{{item.id}} -- {{item.task}}</view>
+  </view>
+    
+</view>

@@ -1,0 +1,5 @@
+
+.ipt {
+	border: 1rpx solid red;
+}
+
